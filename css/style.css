@@ -1,0 +1,254 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%
+}
+
+
+/* Common */
+
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.a-link, .text-sc1, .opendiscord {
+    color: rgb(255, 255, 255);
+}
+
+.loginsite, .mac {
+    color: black;
+}
+
+
+h1 {
+    margin-bottom: 35px;
+    font-size: 35px;
+}
+
+.button {
+    border-radius: 20px;
+    padding: 12px 15px;
+}
+
+
+/* header */
+
+.header {
+    /* debug */
+    background-color: rgb(37, 94, 233);
+    height: 80px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}
+
+
+.loginsite {
+    text-align: right;
+    padding: 6px 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.nv-menu {
+    /* debug */
+    width: 70%;
+    padding-top: 5px;
+}
+
+.nv-link {
+    list-style: none;
+    text-align: center;
+}
+
+.nv-menu li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+
+
+/* section1 */
+.bg-section1 {
+    /* debug */
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box-sc1 {
+    /* debug */
+    height: 480px;
+    width: 48%;
+    padding-top: 150px;
+}
+
+.text-sc1, .buttonsc1 {
+    text-align: center;
+    line-height: 30px;
+}
+
+.mac {
+    background-color: white;
+    margin-right: 20px;
+}
+
+.opendiscord {
+    background-color: rgb(51, 51, 51)
+}
+
+.buttonsc1 {
+    margin-top: 15px;
+}
+
+
+/* section2-4 */
+.bg-section24 {
+    display: flex;
+    justify-content: center;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.box-sc24 {
+    /* debug */
+    background-color: rgb(7, 144, 223);
+    height: 600px;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box2-sc24 {
+    /* debug */
+    background-color: rgb(221, 117, 204);
+    height: 600px;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* section3 */
+.bg-section3 {
+    /* debug */
+    background-color: rgb(219, 219, 219);
+    padding-left: 180px;
+    padding-right: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-sc3 {
+    /* debug */
+    background-color: rgb(221, 117, 204);
+    height: 600px;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.box2-sc3 {
+    /* debug */
+    background-color: rgb(7, 144, 223);
+    height: 600px;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* section5 */
+.bg-section5 {
+    /* debug */
+    background-color: rgb(219, 219, 219);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box-sc5 {
+    /* debug */
+    background-color: rgb(25, 209, 108);
+    height: 700px;
+    width: 70%;
+}
+
+/* section6 */
+.bg-section6 {
+    /* debug */
+    background-color: rgb(39, 39, 39);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.box6 {
+    display: flex;
+    width: 70%;
+}
+
+.box-sc6 {
+    /* debug */
+    background-color: rgb(158, 62, 18);
+    height: 600px;
+    width: 60%;
+}
+
+.box2-sc6 {
+    /* debug */
+    background-color: rgb(23, 175, 69);
+    height: 600px;
+    width: 30%;
+}
+
+/* footer */
+footer {
+    background-color: rgb(39, 39, 39);
+    height: 60px;
+    padding-top: 20px;
+    border-top: 1px solid aliceblue;
+}
+.footersite {
+    /* debug */
+    background-color: rgb(248, 207, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 70%;
+}
+
+.footerlogo,.footerbutton {
+    background-color: rgb(158, 62, 18);
+    padding: 5px;
+}
+
+
+
+
+
