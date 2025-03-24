@@ -26,7 +26,7 @@ a {
     border-radius: 20px;
 }
 
-.a-link, .text-sc1, .opendiscord {
+.a-link, .text-sc1, .opendiscord, .social, .buttondown {
     color: rgb(255, 255, 255);
 }
 
@@ -36,17 +36,27 @@ a {
 
 
 h1, h2, h3 {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     font-size: 35px;
 }
 
-.button {
+h4 {
+    margin-bottom: 25px;
+    font-size: 30px
+}
+
+.button, .buttondown {
     border-radius: 20px;
     padding: 12px 15px;
 }
 
 .text-box {
     line-height: 25px;
+}
+
+.nv-link, .social {
+    list-style: none;
+    text-align: center;
 }
 
 
@@ -82,11 +92,6 @@ h1, h2, h3 {
     /* debug */
     width: 70%;
     padding-top: 5px;
-}
-
-.nv-link {
-    list-style: none;
-    text-align: center;
 }
 
 .nv-menu li {
@@ -194,6 +199,8 @@ h1, h2, h3 {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    height: 1000px;
+    margin-bottom: 80px;
 }
 
 .box-sc5 {
@@ -204,6 +211,18 @@ h1, h2, h3 {
 .bigimg {
     width: 100%;
 }
+
+.buttondown {
+    background-color: rgb(114, 137, 218);
+    color: rgb(255, 255, 255);  
+}
+
+.firsth4 {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+
 
 /* section6 */
 .bg-section6 {
@@ -216,12 +235,13 @@ h1, h2, h3 {
 .box6 {
     display: flex;
     width: 70%;
+    padding-top: 70px;
 }
 
 .box-sc6 {
     /* debug */
     height: 600px;
-    width: 60%;
+    width: 50%;
 }
 
 .box2-sc6 {
@@ -231,8 +251,20 @@ h1, h2, h3 {
     width: 30%;
 }
 
-.fa-brands {
-    
+
+.social {
+    margin-right: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.flagita {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.secondh4 {
+    color: rgb(114, 137, 218);
 }
 
 /* footer */
