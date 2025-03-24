@@ -224,11 +224,19 @@ li {
     color: rgb(255, 255, 255);  
 }
 
-.firsth4 {
+.stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
     margin-top: 80px;
     margin-bottom: 60px;
+    height: 50px;
 }
 
+.firsth4 {
+    padding-top: 40px;
+    font-size: 25px;
+}
 
 
 /* section6 */
@@ -293,7 +301,7 @@ footer {
     align-items: center;
     width: 70%;
     padding-bottom: 80px;
-    padding-top: 20px;
+    padding-top: 30px;
     border-top: 1px solid rgb(114, 137, 218);
 }
 
